@@ -51,7 +51,13 @@ body{
 	border-bottom-color: red;
 	padding-bottom:15px;
 }
-
+.appbar-button a{
+  text-decoration: none;
+  color: #787b83;
+}
+.appbar-button a:hover{
+  color: red;
+}
 body{
 	background-color: lightskyblue;
 }
@@ -75,6 +81,7 @@ body{
 }
 
 .conver-bigbtn{
+	display: block;
 	width:330px;
 	height:65px;
 	text-align: center;
