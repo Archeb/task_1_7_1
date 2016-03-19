@@ -1,5 +1,3 @@
-
-
 html{
 	font-family: 'Century Gothic','Microsoft YaHei',Verdana;
 	min-width: 1024px;
@@ -16,6 +14,7 @@ body{
 	width:100%;
 	background-color: white;
 	min-width: 1024px;
+	position: fixed;
 }
 
 .appbar-logo img{
