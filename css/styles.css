@@ -47,7 +47,6 @@ body{
 	width:100%;
     padding: 10px 15px;
 	display:inline;
-	transform: padding-bottom auto;
 }
 .appbar-button li:hover{
 	color: red;
@@ -57,15 +56,19 @@ body{
 	animation: appbar-btn-border 0.3s;
     background: rgba(0,0,0,0.1)
 }
-.btn-login a{
-    color: red;
-}
 .appbar-button a{
   text-decoration: none;
   color: #787b83;
 }
 .appbar-button a:hover{
   color: red;
+}
+.btn-login a{
+	color: red;
+}
+.btn-login img{
+    position: relative;
+    top: 3px;
 }
 .cover{
 	background-image: url(../img/cover.jpg);
