@@ -6,6 +6,10 @@ body{
 	margin:0px;
 }
 
+@keyframes appbar-btn-border{
+	0% {padding-bottom: 13px;}
+	100% {padding-bottom: 15px;}
+}
 .appbar{
 	border:none;
 	top:0px;
@@ -41,15 +45,20 @@ body{
 .appbar-button li{
 	color:#787b83;
 	width:100%;
-	margin-left: 10px;
-	margin-right: 10px;
-	display:inline
+    padding: 10px 15px;
+	display:inline;
+	transform: padding-bottom auto;
 }
 .appbar-button li:hover{
 	color: red;
 	border-bottom:solid;
-	border-bottom-color: red;
-	padding-bottom:15px;
+	border-bottom-color: rgba(255,0,0,1.0);
+	padding-bottom: 15px;
+	animation: appbar-btn-border 0.3s;
+    background: rgba(0,0,0,0.1)
+}
+.btn-login a{
+    color: red;
 }
 .appbar-button a{
   text-decoration: none;
@@ -90,4 +99,9 @@ body{
 	line-height: 2;
 	text-decoration: none;
     color: #FFFFFF;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.conver-bigbtn:hover{
+	opacity: 1.0;
 }
