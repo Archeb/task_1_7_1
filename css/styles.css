@@ -9,6 +9,7 @@ body{
 }
 
 .appbar{
+	position: fixed;
 	border:none;
 	top:0px;
 	left:0px;
