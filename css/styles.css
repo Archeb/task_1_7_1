@@ -1,22 +1,20 @@
-
-
 html{
 	font-family: 'Century Gothic','Microsoft YaHei',Verdana;
-	min-width: 1024px;
+	min-width: 800px;
 }
 body{
 	margin:0px;
 }
 
 .appbar{
-	position: fixed;
 	border:none;
 	top:0px;
 	left:0px;
 	height:55px;
 	width:100%;
 	background-color: white;
-	min-width: 1024px;
+	min-width: 800px;
+	position: fixed;
 }
 
 .appbar-logo img{
@@ -53,11 +51,13 @@ body{
 	border-bottom-color: red;
 	padding-bottom:15px;
 }
-
-body{
-	background-color: lightskyblue;
+.appbar-button a{
+  text-decoration: none;
+  color: #787b83;
 }
-
+.appbar-button a:hover{
+  color: red;
+}
 .cover{
 	background-image: url(../img/cover.jpg);
 	background-size: cover;
@@ -77,10 +77,35 @@ body{
 }
 
 .conver-bigbtn{
+	display: block;
 	width:330px;
 	height:65px;
 	text-align: center;
 	background-color:rgb(231,79,77);
 	font-size:30px;
 	line-height: 2;
+	text-decoration: none;
+    color: #FFFFFF;
+}
+
+.iconbox{
+	height: 250px;
+}
+
+.iconbox-content{
+	margin:45px 0 85px 0;
+	width:25%;
+	float:left;
+	text-align: center;
+}
+
+.iconbox-text{
+	font-size:14px;
+	margin-top:45px;
+	text-align: center;
+}
+.iconbox-text-withline{
+	border-right-style:solid;
+	border-right-color:rgb(152,152,153);
+	border-right-width: 1.6px;
 }
