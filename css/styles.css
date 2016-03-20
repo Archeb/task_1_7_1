@@ -93,17 +93,19 @@ body{
 	width:330px;
 	height:65px;
 	text-align: center;
-	background-color:rgb(231,79,77);
+	background-color:rgba(231,79,77,0.8);
 	font-size:30px;
 	line-height: 2;
 	text-decoration: none;
     color: #FFFFFF;
-    opacity: 0.8;
     transition: opacity 0.3s;
 }
 .conver-bigbtn:hover{
-	opacity: 1.0;
+background-color:rgba(231,79,77,1.0);
+    opacity: 0.8;
+    transition: opacity 0.3s;
 }
+
 
 .iconbox{
 	height: 250px;
@@ -125,4 +127,92 @@ body{
 	border-right-style:solid;
 	border-right-color:rgb(152,152,153);
 	border-right-width: 1.6px;
+}
+.toknow{
+	background-color:rgb(236,236,236);
+	padding:80px 0 80px 0;
+	text-align: center;
+}
+.toknow-text{
+	margin-top: 50px;
+	color:rgb(161,161,161);
+	font-size: 53.59px;
+}
+.find{
+	background-image: url(../img/map.png);
+	background-size:cover;
+	height:348px;
+	text-align: center;
+	color:white;
+}
+.find-heading{
+	padding-top:50px;
+	font-size:21px;
+}
+.find-line{
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	width:32px;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top:10px;
+}
+
+/* 联系我们 */
+.contact{
+	background-color: #32363e;
+	padding: 120px;
+	color: #FFFFFF;
+	font-size: 2em;
+	height: 360px;
+	text-align: center;
+}
+.contact form {
+	display: inline-block;
+	height: 40px;
+}
+.contact form input {
+	float: left;
+	width: 400px;
+	padding-left: 10px;
+	height: 100%;
+	color: #231815;
+}
+.contact form button {
+	border: 0px;
+	float: left;
+	width: 71px;
+	padding-left: 9px;
+	height: 45px;
+	font-size: 0.5em;
+	color: #fff;
+	background-color: #6f7178;
+	letter-spacing: 9px;
+}
+.fico{
+	margin-top: 30px;
+}
+.fico img{
+	margin: 5px 10px;
+}
+/* 页面底部条 */
+.foot{
+	background-color: #2f2f38;
+	height: 40px;
+}
+.foot p{
+	margin: 0px;
+	color: #FFFFFF;
+	padding: 10px;
+}
+.copyright{
+	float: left;
+	margin-left: 30px;
+
+}
+.backtop{
+	float: right;
+	color: #fffdef;
+	padding: 10px;
+	text-decoration: none;
 }
