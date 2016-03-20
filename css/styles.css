@@ -102,7 +102,10 @@ body{
 }
 .conver-bigbtn:hover{
 background-color:rgba(231,79,77,1.0);
+    opacity: 0.8;
+    transition: opacity 0.3s;
 }
+
 
 .iconbox{
 	height: 250px;
